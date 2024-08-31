@@ -1,6 +1,5 @@
 
 
-
 .component{
 
     display: flex;
@@ -49,8 +48,8 @@ a:hover{
 .hero{
 
     max-width: 100%;
-    border: 2px black solid;
-    border-radius: 10%;
+    
+    
 }
 
 
