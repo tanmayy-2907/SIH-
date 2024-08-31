@@ -132,14 +132,14 @@
     display: none;
 }
 
-.sidebar ul li .tooltip {
-    position: fixed;
-    left: 100px;
-    bottom: 0.5rem;
-    transform: translate(-1rem, 0.3rem);
-    box-shadow: 0 0.5rem 0.8rem rgb(0, 0, 0, 0.2);
-    border-radius: 0.6rem;
-    padding: 0.4rem 1.2rem;
+.sidebar ul li .tooltip{
+    position: absolute;
+    left:150px;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0.5rem 0.8rem rgb(0,0,0,0.2);
+    border-radius: .6rem;
+    padding: .4rem 1.2rem;
     line-height: 1.8rem;
     z-index: 20;
     display: none;
@@ -147,6 +147,11 @@
 
 .sidebar ul li:hover .tooltip {
     display: inline;
+}
+
+.sidebar.active ul li .tooltip{
+
+    display: none;
 }
 
 .main-con {
