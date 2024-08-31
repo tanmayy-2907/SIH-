@@ -169,8 +169,31 @@
     width: calc(100% - 250px);
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+.main-con{
+
+    display: grid;
+    gap: 1.5rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
+
+
+
+
+
+.intro{
+    display: inline;
+    background-color: rgb(231, 237, 237);
+    border-radius: 5px;
+    height: 6rem;
+    border: 2px black solid;
+    box-shadow: 10px 10px 5px lightblue;
+
+}
+
+.progress-snippet{
+
+    background-color: red;
+}
+
 
